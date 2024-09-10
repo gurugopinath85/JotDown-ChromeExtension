@@ -1,0 +1,105 @@
+/* Body */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif; 
+    background-color: #FAF3E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 25px;
+    background-color: #FFFFFF; 
+    border-radius: 16px; 
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Heading */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #7D7D7D;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* Textarea */
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-family: inherit;
+    color: #555;
+    background-color: #F7F8FA; 
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.05);
+    transition: border 0.3s ease, background-color 0.3s ease;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+    border: 2px solid #8BC34A; 
+    background-color: #F1F8E9; 
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    background-color: #8BC34A; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #7CB342; 
+    transform: translateY(-3px);
+}
+
+button:active {
+    background-color: #689F38; 
+}
+
+/* Responsive */
+@media (max-width: 320px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button,
+    textarea {
+        font-size: 1rem;
+    }
+}
