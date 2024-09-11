@@ -20,9 +20,9 @@ Future Plans:
   - Possibly introducing mobile-friendly support or browser extensions.
 
 How to Use:
-  - Open Jot Down on your computer.
+  - Open Jot Down on your computer. (Go to chrome://extensions and use developer mode to upload files)
   - Start typing your note in the main interface.
-  - Click "Save" to store your notes locally, or copy the text for use elsewhere. (I personally move my notes elsewhere later and just focus on notetaking)
+  - Click "Save" to store your notes locally, or copy the text for use elsewhere. (I personally save and then move my notes elsewhere later and just focus on notetaking)
 
 
 Jot Down is a project I made for myself, and it reflects my personal note-taking needs. I’m excited to keep improving it and hope that as it grows, it continues to serve its purpose of being a fast, easy, and accessible tool for jotting down thoughts on the go. I'm eager to learn and develop my skills so if you have any feedback or suggestions please feel free to let me know!
